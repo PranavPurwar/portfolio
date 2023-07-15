@@ -153,7 +153,7 @@ export default function Navbar() {
             aria-label="Toggle Dark Mode"
             type="button"
             className="w-10 h-10 p-3 rounded focus:outline-none"
-            onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+            onClick={() => setTheme(theme === "light" ? "dark" : "light")}
           >
             {mounted && (
               <svg
@@ -163,7 +163,7 @@ export default function Navbar() {
                 stroke="currentColor"
                 className="w-4 h-4 text-yellow-500 dark:text-yellow-500"
               >
-                {theme != "dark" ? (
+                {theme == "dark" ? (
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
