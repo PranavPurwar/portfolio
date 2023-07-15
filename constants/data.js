@@ -6,6 +6,11 @@ const userData = {
   email: "purwarpranav80@gmail.com",
   projects: [
     {
+      title: "Memes - Reddit Meme Scraper",
+      link: "https://github.com/PranavPurwar/Meme",
+      imgUrl: "/another.webp",
+    },
+    {
       title: "Cosmic IDE Rewrite",
       link: "https://github.com/Cosmic-IDE/rewrite",
       imgUrl: "/ide.svg",
@@ -24,11 +29,6 @@ const userData = {
       title: "PLJ Language",
       link: "https://github.com/PranavPurwar/PLJ-Language",
       imgUrl: "/plj.png",
-    },
-    {
-      title: "Memes - Reddit Meme Scraper",
-      link: "https://github.com/PranavPurwar/Meme",
-      imgUrl: "/meme.png",
     }
   ],
   about: {
@@ -61,6 +61,7 @@ const userData = {
     twitter: "https://twitter.com/Pranav0880",
     linkedin: "https://linkedin.com/in/ranavpurwar",
     github: "https://github.com/PranavPurwar",
+    discord: "https://discordapp.com/users/762635443664977930",
   },
 };
 

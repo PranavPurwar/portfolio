@@ -11,6 +11,7 @@ export default function FavouriteProjects() {
           </h1>
           <Link
             href="/projects"
+            target="_blank"
             className="mb-20 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700"
           >
             <svg
@@ -36,17 +37,39 @@ export default function FavouriteProjects() {
         <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
           {/* Single card */}
           <a
-            href="https://github.com/Cosmic-IDE/rewrite"
+            href="/real.jpeg"
+            target="_blank"
             className="w-full block col-span-3 shadow-2xl"
           >
             <div className="relative overflow-hidden">
               <img
-                src="/ide.svg"
-                alt="portfolio"
+                src="/real.jpeg"
+                width="100%"
+                height="50%"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                Cosmic IDE Rewrite
+                Evening Scenery by the Bot
+              </h1>
+              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+                01
+              </h1>
+            </div>
+          </a>
+          <a
+            href="/blue.png"
+            target="_blank"
+            className="w-full block col-span-1 shadow-2xl"
+          >
+            <div className="relative overflow-hidden">
+              <img
+                src="/blue.png"
+                width="100%"
+                height="50%"
+                className="transform hover:scale-125 transition duration-2000 ease-out"
+              />
+              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
+                Blue
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 01
@@ -55,21 +78,17 @@ export default function FavouriteProjects() {
           </a>
           {/* Single card */}
           <a
-            href="https://placeholdertech.in"
+            href="/real.png"
             className="w-full block col-span-3  sm:col-span-1 shadow-2xl"
           >
             <div className="relative overflow-hidden">
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
               <img
                 src="/real.png"
-                alt="portfolio"
                 width="100%"
                 height="50%"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
-              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                GPT Discord Bot
-              </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 02
               </h1>
@@ -77,7 +96,7 @@ export default function FavouriteProjects() {
           </a>
           {/* Single card */}
           <a
-            href="https://github.com/PranavPurwar"
+            href="/me.ai.png"
             className="w-full block col-span-3 sm:col-span-1  object-cover"
           >
             <div className="relative overflow-hidden shadow-2xl">
