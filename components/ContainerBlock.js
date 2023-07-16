@@ -18,6 +18,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
     <div>
       <Head>
         <title>{meta.title}</title>
+        <meta name="viewport" content="width=1200" />
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
         <meta
@@ -28,6 +29,15 @@ export default function ContainerBlock({ children, ...customMeta }) {
           rel="canonical"
           href={`https://invokevirtual.vercel.app${router.asPath}`}
         />
+        <style>
+          @media only screen and (max-width: 1200px) {
+            /* Specify the CSS rules for smaller screen sizes */
+            body {
+              overflow-x: scroll; /* Enable horizontal scrolling on smaller screens */
+            }
+          }
+        </style>
+
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Pranav Purwar" />
         <meta property="og:description" content={meta.description} />
@@ -38,7 +48,6 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
-        <meta name="viewport" content="width=1024">
         {meta.date && (
           <meta property="article:published_time" content={meta.date} />
         )}
