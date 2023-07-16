@@ -38,6 +38,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
+        <meta name="viewport" content="width=1024">
         {meta.date && (
           <meta property="article:published_time" content={meta.date} />
         )}
