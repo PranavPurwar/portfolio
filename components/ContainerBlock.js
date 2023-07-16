@@ -29,14 +29,6 @@ export default function ContainerBlock({ children, ...customMeta }) {
           rel="canonical"
           href={`https://invokevirtual.vercel.app${router.asPath}`}
         />
-        <style>
-          @media only screen and (max-width: 1200px) {
-            /* Specify the CSS rules for smaller screen sizes */
-            body {
-              overflow-x: scroll; /* Enable horizontal scrolling on smaller screens */
-            }
-          }
-        </style>
 
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Pranav Purwar" />
