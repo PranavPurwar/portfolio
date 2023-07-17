@@ -17,7 +17,7 @@ export default function LatestCode({ repositories }) {
           <a
             href={`https://github.com/PranavPurwar`}
             target="_blank"
-            className="mb-20 md:mb-0 px-8 py-4 rounded-mdshadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700"
+            className="mb-20 md:mb-0 px-8 py-4 rounded-md shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
