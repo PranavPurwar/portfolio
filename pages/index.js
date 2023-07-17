@@ -17,7 +17,7 @@ export default function Home({ repositories }) {
       <Hero />
       <FavouriteProjects />
       <p
-        className="px-16 py-4 text-center text-gray-600 dark:text-gray-200"
+        className="px-16 py-4 text-center dark:text-gray-200"
         style={{
           fontSize: "1.2rem"
         }}

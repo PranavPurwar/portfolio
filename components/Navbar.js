@@ -22,7 +22,7 @@ export default function Navbar() {
             <h1 className="font-semibold text-xl dark:text-gray-100">
               {userData.name}
             </h1>
-            <p className="text-base font-light text-gray-500 dark:text-gray-300">
+            <p className="text-base font-light dark:text-gray-300">
               {userData.designation}
             </p>
           </Link>
@@ -121,7 +121,7 @@ export default function Navbar() {
           </a>
           <a
             href={userData.socialLinks.twitter}
-            className="text-base font-normal text-gray-600 dark:text-gray-300"
+            className="text-base font-normal dark:text-gray-300"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -136,7 +136,7 @@ export default function Navbar() {
           </a>
           <a
             href={userData.socialLinks.linkedin}
-            className="text-base font-normal text-gray-600 dark:text-gray-300"
+            className="text-base font-normal dark:text-gray-300"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -186,25 +186,25 @@ export default function Navbar() {
       <div className="space-x-8 block md:hidden mt-4">
         <Link
           href="/about"
-          className="text-base font-normal text-gray-600 dark:text-gray-300"
+          className="text-base font-normal dark:text-gray-300"
         >
           About
         </Link>
         <Link
           href="/projects"
-          className="text-base font-normal text-gray-600 dark:text-gray-300"
+          className="text-base font-normal dark:text-gray-300"
         >
           Projects
         </Link>
         <Link
           href="/experience"
-          className="text-base font-normal text-gray-600 dark:text-gray-300"
+          className="text-base font-normal dark:text-gray-300"
         >
           Experience
         </Link>
         <Link
           href="/contact"
-          className="text-base font-normal text-gray-600 dark:text-gray-300"
+          className="text-base font-normal dark:text-gray-300"
         >
           Contact
         </Link>

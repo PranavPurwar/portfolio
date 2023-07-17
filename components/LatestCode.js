@@ -10,14 +10,14 @@ export default function LatestCode({ repositories }) {
     <section className="bg-[#F1F1F1] -mt-40 dark:bg-gray-900 pb-40">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center md:pt-40 mx-10">
-          <h1 className="text-6xl lg:text-9xl max-w-lg font-bold text-gray-500 my-20 md:my-0 md:text-white dark:text-gray-600 text-center lg:text-left">
+          <h1 className="text-6xl lg:text-9xl max-w-lg font-bold my-20 md:my-0 md:text-white md:text-gray-500 text-center lg:text-left">
             Latest Code
           </h1>
 
           <a
             href={`https://github.com/PranavPurwar`}
             target="_blank"
-            className="mb-20 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700"
+            className="mb-20 md:mb-0 px-8 py-4 rounded-mdshadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +56,7 @@ const GithubRepoCard = ({ latestRepo }) => {
       <h1 className="font-semibold text-xl dark:text-gray-200 text-gray-700">
         {latestRepo.name}
       </h1>
-      <p className="text-base font-normal my-4 text-gray-500">
+      <p className="text-base font-normal my-4 md:text-gray-500">
         {latestRepo.description}
       </p>
       <a

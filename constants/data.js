@@ -59,7 +59,7 @@ const userData = {
   socialLinks: {
     instagram: "https://instagram.com/pranavpurwar",
     twitter: "https://twitter.com/Pranav0880",
-    linkedin: "https://linkedin.com/in/ranavpurwar",
+    linkedin: "https://linkedin.com/in/pranavpurwar",
     github: "https://github.com/PranavPurwar",
     discord: "https://discordapp.com/users/762635443664977930",
   },

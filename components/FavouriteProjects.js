@@ -6,13 +6,13 @@ export default function FavouriteProjects() {
     <div className="bg-[#F1F1F1] -mt-50 dark:bg-gray-900">
       <div className="max-w-6xl mx-auto">
         <header className="flex flex-col md:flex-row justify-between items-center mx-10 md:my-20 lg:my-19">
-          <h1 className="text-6xl lg:text-6xl max-w-lg font-bold text-gray-500 pt-40 my-20 md:my-0 md:text-white dark:text-gray-600 text-center">
+          <h1 className="text-6xl md:text-white lg:text-6xl max-w-lg font-bold pt-40 my-20 md:my-0 md:text-gray-600 text-center">
             Art by my AI Bot
           </h1>
           <Link
             href="/projects"
             target="_blank"
-            className="mb-20 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700"
+            className="mb-20 md:mb-0 px-8 py-4 rounded-mdshadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
