@@ -18,6 +18,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
     <div>
       <Head>
         <title>{meta.title}</title>
+        <meta name="viewport" content="width=1200" />
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
         <meta
@@ -28,6 +29,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
           rel="canonical"
           href={`https://invokevirtual.vercel.app${router.asPath}`}
         />
+
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Pranav Purwar" />
         <meta property="og:description" content={meta.description} />
