@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@vercel/analytics": "^1.0.1",
-    "axios": "^1.4.0",
+    "axios": "^1.6.0",
     "next": "latest",
     "next-axiom": "^0.18.0",
     "next-themes": "latest",
