@@ -11,14 +11,9 @@ const userData = {
       imgUrl: "/another.webp",
     },
     {
-      title: "Cosmic IDE Rewrite",
-      link: "https://github.com/Cosmic-IDE/rewrite",
-      imgUrl: "/ide.svg",
-    },
-    {
       title: "Cosmic IDE",
       link: "https://github.com/Cosmic-IDE/Cosmic-IDE",
-      imgUrl: "https://github.com/Cosmic-Ide/Cosmic-Ide/blob/dev/fastlane/metadata/android/en-US/images/icon.png?raw=true",
+      imgUrl: "/ide.svg",
     },
     {
       title: "Dependency Resolver",
